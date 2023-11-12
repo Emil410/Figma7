@@ -243,17 +243,46 @@ header {
         height: 600px;
     }
 }
-#first_section .container{
+#first_section{
     display: flex;
+    align-items: center;
 }
-
+#great_app{
+    background-color: #FFFFFF;
+    width: 570px;
+    height: 432px;
+    margin-left: 370px;
+    position: absolute;
+    padding: 26px;
+}
+#h2_great{
+    color: #5956E9;
+    font-size: 48.83px;
+    font-weight: 700;
+    margin-top: 14px;
+}
+#under_great{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C72;
+    margin-top: 18px;
+}
+#download_app_now{
+    font-size: 25px;
+    font-weight: 600;
+    color: #232233;
+    margin-top: 52px;
+}
 #background_div {
     display: flex;
     color: transparent;
     border: 18px solid #7572FF;
     width: 570px;
     height: 535px;
-    margin-top: 321px;
+    margin-left: 420px;
+    position: relative;
+    z-index: -1;
 }
 /* #download_app{
     display: flex;
@@ -262,11 +291,9 @@ header {
 } */
 #apple{
     display: flex;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    margin-top: 200px;
-    margin-left: 124px;
+    height: 726px;
+    width: 646px;
+    margin-left: 200px;
 }
 #second_section .container{
     display: flex;
@@ -361,42 +388,42 @@ h5{
 }
 #unlimiter{
     width: 297px;
+    height: 171px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     text-align: right;
-    margin-top: 120px;
 }
 #awsome{
     display: flex;
     width: 297px;
+    height: 171px;
     flex-direction: column;
     align-items: flex-end;
     text-align: right;
-    margin-top: 347px;
 }
 #app{
     display: flex;   
 }
 #iso{
     width: 297px;
+    height: 171px;
     display: flex;
     flex-direction: column;
-    margin-top: 120px;
 }
 #retina{
     display: flex;
+    height: 171px;
     width: 297px;
     flex-direction: column;
-    margin-top: 347px;
 }
 #fourth_section{
     margin-top: 120px;
 }
 #now{
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    width: 570px;
 }
 #app_now{
     font-size: 31.25px;
@@ -419,6 +446,9 @@ h5{
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
+}
+#fivth_section .container{
+    display: flex;
 }
 .download{
     width: 170px;
@@ -445,4 +475,127 @@ h6{
 }
 #app_design{
     display: flex;
+    width: 520px;
+    margin-top: 110px;
+}
+#sixth_section{
+    height: 477px;
+    margin-top: 100px;
+    background-image: url("../imgs/Background\ Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#how{
+    text-align: center;
+    padding-top: 150px;
+}
+#how_to_use {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFF;
+}
+.under_how_to_use{
+    font-size: 16px;
+    font-weight: 400;
+    width: 601px;
+    height: 70px;
+    padding-top: 50px;
+    margin: 0 auto;
+    color: #FFF;
+}
+#seventh_section .container{
+    display: flex;
+    flex-direction: column;
+}
+.our_lorem{
+    text-align: center;
+    padding-top: 150px;
+}
+.our_reative_team{
+    font-size: 31.25px;
+    font-weight: 700;
+}
+.lorem_teen{
+    width: 601px;
+    height: 70px;
+    color: #6C6C72;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-weight: 400;
+}
+.three_div{
+    display: flex;
+    justify-content: center;
+    width: 370px;
+    height: 580px;
+    background-color: white;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+.girl_photo{
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.carla_press{
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 77px;
+}
+#seventh_section{
+    margin-top: 100px;
+}
+.app_developer{
+    display: inline-block;
+    font-size: 20px;
+    color: #6C6C72;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.lorem_eleven{
+    width: 326px;
+    padding-top: 15px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C72;
+}
+.carla_app_lorem{
+    text-align: center;
+    margin-top: 77px;
+}
+.social{
+    margin-top: 20px;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+#eigth_section{
+    background-image: url("../imgs/Background\ Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 120px;
+    text-align: center;
+}
+.our_happy{
+    display: inline-block;
+    font-size: 31.25px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 120px;
+}
+#lorem{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 601px;
+    margin-top: 23px;
+    margin-bottom: 60px;
 }

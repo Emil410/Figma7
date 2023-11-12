@@ -22,3 +22,11 @@ const progressCircle = document.querySelector(".autoplay-progress svg");
         }
       }
     });
+    var swiper = new Swiper("._mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
