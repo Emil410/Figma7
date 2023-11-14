@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -19,12 +19,12 @@
                 <ul id="header_contact">
                     <li>
                         <a href="#">
-                            <i class="fa-regular fa-envelope"></i> <span>Info@youremail.com</span>
+                            <i class="fa-regular fa-envelope info"></i> <span class="info">Info@youremail.com</span>
                         </a>
                     </li>
                     <li>
-                        <a href="">
-                            <i class="fa-solid fa-phone"></i><span>(480) 555-0103</span>
+                        <a href="#">
+                            <i class="fa-solid fa-phone"></i><span class="info">(480) 555-0103</span>
                         </a>
                     </li>
                 </ul>
@@ -54,7 +54,7 @@
             <div id="header_bottom">
                 <div id="nav_left">
                     <nav>
-                        <a href="" class="active">HOME</a>
+                        <a href="#" class="active">HOME</a>
                         <a href="./assets/pages/about.html">ABOUT</a>
                         <a href="">FEATURES</a>
                     </nav>
@@ -73,20 +73,24 @@
         </div>
     </header>
     <section id="first_section">
-        <div id="great_app">
-            <h2 id="h2_great">A GREAT APP MAKES YOUR LIFE BETTER</h2>
-            <span id="under_great">Amet minim mollit non deserunt ullamco est
-                sit aliqua dolor do amet sint.Velit officia consequat duis
-                enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span>
-            <h5 id="download_app_now">DOWNLOAD APP NOW</h5>
-            <div style="margin-top: 5px;">
-                <img src="./assets/imgs/Download Store.png" alt="">
+        <div class="container">
+            <div id="download_app_iphone">
+                <div id="great_app">
+                    <h2 id="h2_great">A GREAT APP MAKES YOUR LIFE BETTER</h2>
+                    <span id="under_great">Amet minim mollit non deserunt ullamco est
+                        sit aliqua dolor do amet sint.Velit officia consequat duis
+                        enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span>
+                    <h5 id="download_app_now">DOWNLOAD APP NOW</h5>
+                    <div style="margin-top: 5px;">
+                        <img src="./assets/imgs/Download Store.png" alt="">
+                    </div>
+                </div>
+                <div id="background_div">
+                </div>
+                <div id="apple">
+                    <img src="./assets/imgs/Free Ui View Mobile App Mockup 1.png" alt="" id="apple_img">
+                </div>
             </div>
-        </div>
-        <div id="background_div">
-        </div>
-        <div id="apple">
-            <img src="./assets/imgs/Free Ui View Mobile App Mockup 1.png" alt="" id="apple_img">
         </div>
     </section>
     <section id="second_section">
@@ -95,49 +99,53 @@
                 <h1 class="first_words_section">ABOUT OUR APP</h1>
                 <div class="under_first">
                     <span class="under_first_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Distinctio doloribus dolore tempora quae facere rem, eveniet ducimus,
-                    cum, molestias nobis beatae. Deserunt est iure nihil tempore ea rerum 
-                    accusantium dolorum?</span>
+                        Distinctio doloribus dolore tempora quae facere rem, eveniet ducimus,
+                        cum, molestias nobis beatae. Deserunt est iure nihil tempore ea rerum
+                        accusantium dolorum?</span>
                 </div>
             </div>
-        <div style="display: flex; justify-content: space-between;">
-            <div id="android">
-                <img src="./assets/imgs/android-smartphone-free-mockup 1.png" alt="">
-            </div>
-        <div style="display: flex;flex-direction: column;justify-content: space-between;">
-            <div class="boxes">
-                <i class="fa-solid fa-square-check" style="color: #5956E9;"></i>
-                <h2>CREATIVE DESIGN</h2>
-                <span class="under_first_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante 
-                    velit vitae.Est tellus vitae,nullam lobortis enim. Faucibus 
-                    amet etiam tincidunt rhoncus, ullamcorper velit.</span>
-            </div>
-            <div class="boxes">
-                <i class="fa-solid fa-square-check" style="color: #5956E9;"></i>
-                <h2>EASY TO USE</h2>
-                <span class="under_first_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante 
-                    velit vitae.Est tellus vitae,nullam lobortis enim. Faucibus 
-                    amet etiam tincidunt rhoncus, ullamcorper velit.</span>
-            </div>
-            <div class="boxes">
-                <i class="fa-solid fa-square-check" style="color: #5956E9;"></i>
-                <h2>BEST USER EXPIRIENCE</h2>
-                <span class="under_first_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante 
-                    velit vitae.Est tellus vitae,nullam lobortis enim. Faucibus 
-                    amet etiam tincidunt rhoncus, ullamcorper velit.</span>
+            <div style="display: flex; justify-content: space-between;">
+                <div id="android">
+                    <img src="./assets/imgs/android-smartphone-free-mockup 1.png" alt="">
+                </div>
+                <div style="display: flex;flex-direction: column;justify-content: space-between;">
+                    <div class="boxes">
+                        <i class="fa-solid fa-square-check" style="color: #5956E9;"></i>
+                        <h2>CREATIVE DESIGN</h2>
+                        <span class="under_first_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+                            nunc ante
+                            velit vitae.Est tellus vitae,nullam lobortis enim. Faucibus
+                            amet etiam tincidunt rhoncus, ullamcorper velit.</span>
+                    </div>
+                    <div class="boxes">
+                        <i class="fa-solid fa-square-check" style="color: #5956E9;"></i>
+                        <h2>EASY TO USE</h2>
+                        <span class="under_first_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+                            nunc ante
+                            velit vitae.Est tellus vitae,nullam lobortis enim. Faucibus
+                            amet etiam tincidunt rhoncus, ullamcorper velit.</span>
+                    </div>
+                    <div class="boxes">
+                        <i class="fa-solid fa-square-check" style="color: #5956E9;"></i>
+                        <h2>BEST USER EXPIRIENCE</h2>
+                        <span class="under_first_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+                            nunc ante
+                            velit vitae.Est tellus vitae,nullam lobortis enim. Faucibus
+                            amet etiam tincidunt rhoncus, ullamcorper velit.</span>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-    </div>
     </section>
     <section id="third_section">
         <div class="container">
             <div id="app_features">
                 <h4 id="text">APP FEATURES</h4>
                 <div class="under_first">
-                    <span id="under_app_features">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. 
-                    Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus,
-                    ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</span>
+                    <span id="under_app_features">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
+                        ante velit vitae.
+                        Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus,
+                        ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</span>
                 </div>
             </div>
             <div>
@@ -152,32 +160,32 @@
                     <span class="under_full">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
                 </div>
             </div>
-        <div>
-            <div class="message">
-                <i class="fa-solid fa-message" style="color: white; font-size: 50px;"></i>
-                <h5>FULL FREE CHAT</h5>
-                <span class="under_full">Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit.</span>
+            <div>
+                <div class="message">
+                    <i class="fa-solid fa-message" style="color: white; font-size: 50px;"></i>
+                    <h5>FULL FREE CHAT</h5>
+                    <span class="under_full">Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit.</span>
+                </div>
+                <div id="app">
+                    <img src="./assets/imgs/App.png" alt="">
+                </div>
+                <div class="message">
+                    <i class="fa-solid fa-person" style="color: white;font-size: 50px;"></i>
+                    <h5>24/7 SUPPORT BY REAL PEOPLE</h5>
+                    <span class="under_full">Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit.</span>
+                </div>
             </div>
-            <div id="app">
-                <img src="./assets/imgs/App.png" alt="">
-            </div>
-            <div class="message">
-                <i class="fa-solid fa-person" style="color: white;font-size: 50px;"></i>
-                <h5>24/7 SUPPORT BY REAL PEOPLE</h5>
-                <span class="under_full">Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit.</span>
-            </div>
-        </div>
-        <div>
-            <div id="iso">
-                <i class="fa-solid fa-mobile-button" style="color: white;font-size: 50px;"></i>
-                <h5>ISO & ANDROID VERSION</h5>
-                <span class="under_full">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-            </div>
-            <div id="retina">
-                <i class="fa-solid fa-eye" style="color: white;font-size: 50px;"></i>
-                <h5>RETINA READY GREAPHICS</h5>
-                <span class="under_full">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-            </div>
+            <div>
+                <div id="iso">
+                    <i class="fa-solid fa-mobile-button" style="color: white;font-size: 50px;"></i>
+                    <h5>ISO & ANDROID VERSION</h5>
+                    <span class="under_full">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                </div>
+                <div id="retina">
+                    <i class="fa-solid fa-eye" style="color: white;font-size: 50px;"></i>
+                    <h5>RETINA READY GREAPHICS</h5>
+                    <span class="under_full">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                </div>
             </div>
         </div>
     </section>
@@ -185,31 +193,38 @@
         <div class="container">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img src="./assets/imgs/iPhoneX-Mockup 1.png" alt="" style="height: 659px; width: 322px;"></div>
-                  <div class="swiper-slide"><img src="./assets/imgs/001.png" alt="" style="height: 659px; width: 322px;"></div>
-                  <div class="swiper-slide"><img src="./assets/imgs/004.png" alt="" style="height: 659px; width: 322px;"></div>
-                  <div class="swiper-slide"><img src="./assets/imgs/003.png" alt="" style="height: 659px; width: 322px;"></div>
-                  <div class="swiper-slide"><img src="./assets/imgs/000.png" alt="" style="height: 659px; width: 322px;"> </div>
+                    <div class="swiper-slide"><img src="./assets/imgs/iPhoneX-Mockup 1.png" alt=""
+                            style="height: 659px; width: 322px;"></div>
+                    <div class="swiper-slide"><img src="./assets/imgs/001.png" alt=""
+                            style="height: 659px; width: 322px;"></div>
+                    <div class="swiper-slide"><img src="./assets/imgs/004.png" alt=""
+                            style="height: 659px; width: 322px;"></div>
+                    <div class="swiper-slide"><img src="./assets/imgs/003.png" alt=""
+                            style="height: 659px; width: 322px;"></div>
+                    <div class="swiper-slide"><img src="./assets/imgs/000.png" alt=""
+                            style="height: 659px; width: 322px;"> </div>
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
                 <div class="autoplay-progress">
-                  <svg viewBox="0 0 48 48">
-                    <circle cx="24" cy="24" r="20"></circle>
-                  </svg>
-                  <span></span>
+                    <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span></span>
                 </div>
-              </div>
+            </div>
         </div>
     </section>
     <section id="fivth_section">
         <div class="container">
             <div id="now">
                 <h4 id="app_now">DOWNLOAD APP NOW</h4>
-                <span id="under_download">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit<br/> vitae. 
-                    Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt<br/> rhoncus, ullamcorper velit.
-                    Ullamcorper risus tempor, ac nunc libero urna,<br/> feugiat.</span>
+                <span id="under_download">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante
+                    velit<br /> vitae.
+                    Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt<br /> rhoncus, ullamcorper
+                    velit.
+                    Ullamcorper risus tempor, ac nunc libero urna,<br /> feugiat.</span>
                 <div id="download_store">
                     <img src="./assets/imgs/Download Store.png" alt="">
                 </div>
@@ -230,27 +245,31 @@
                         <h6>5 STAR RATING</h6>
                     </div>
                 </div>
-            </div>
+            </div>  
             <div id="app_design">
-                <img src="./assets/imgs/App Desgin.png" alt="">
+                <img src="./assets/imgs/App Desgin.png" alt="" style="width: 100%;height: 100%;">
             </div>
         </div>
     </section>
     <section id="sixth_section">
         <div class="container">
             <div id="how">
-               <span id="how_to_use">HOW TO USE THE APP PERFECTLY</span>
-               <p class="under_how_to_use">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
-               <div>
-                 <img src="./assets/imgs/Video.png" alt="">
-               </div>
+                <span id="how_to_use">HOW TO USE THE APP PERFECTLY</span>
+                <p class="under_how_to_use">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante
+                    velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus,
+                    ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
+                <div style="height: 519px; ">
+                    <img src="./assets/imgs/Video.png" alt="">
+                </div>
             </div>
-        </section>
+    </section>
     <section id="seventh_section">
         <div class="container">
             <div class="our_lorem">
                 <span class="our_reative_team">OUR REATIVE TEAM</span>
-                <p class="lorem_teen">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
+                <p class="lorem_teen">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit
+                    vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper
+                    velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
             </div>
             <div class="all">
                 <div class="three_div">
@@ -258,7 +277,8 @@
                         <img src="./assets/imgs/Profile.png" class="girl_photo" alt="">
                         <span class="carla_press">CARLA PRESS</span>
                         <span class="app_developer">APP DEVELOPER</span>
-                        <p class="lorem_eleven">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
+                        <p class="lorem_eleven">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
+                            ante velit vitae. Est tellus vitae.</p>
                         <div class="social">
                             <img src="./assets/imgs/Social Icon.png" class="social" alt="">
                         </div>
@@ -269,7 +289,8 @@
                         <img src="./assets/imgs/Profile Image.png" class="girl_photo" alt="">
                         <span class="carla_press">CRAIG GOUSE</span>
                         <span class="app_developer">UX/IX DEVELOPER</span>
-                        <p class="lorem_eleven">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
+                        <p class="lorem_eleven">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
+                            ante velit vitae. Est tellus vitae.</p>
                         <div class="social">
                             <img src="./assets/imgs/Social Icon.png" class="social" alt="">
                         </div>
@@ -280,7 +301,8 @@
                         <img src="./assets/imgs/Profile Image (1).png" class="girl_photo" alt="">
                         <span class="carla_press">JOSELYN SEPTIMUS</span>
                         <span class="app_developer">WEBSITE DEVELOPER</span>
-                        <p class="lorem_eleven">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
+                        <p class="lorem_eleven">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
+                            ante velit vitae. Est tellus vitae.</p>
                         <div class="social">
                             <img src="./assets/imgs/Social Icon.png" class="social" alt="">
                         </div>
@@ -288,32 +310,109 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<section id="eigth_section">
-    <div class="container">
-        <h4 class="our_happy">OUR HAPPY COSTUMERS</h4><br/>
-        <span id="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet 
-            etiam tincidunt rhoncus,ullamcorper velit. Ullamcorper risus tempor,
-            ac nunc libero urna, feugiat.</span>
-        <div class="swiper _mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="./assets/imgs/Review-1.png" alt="" style="height: 357px;"></div>
-              <div class="swiper-slide"><img src="./assets/imgs/Review-2.png" alt="" style="height: 357px;"></div>
-              <div class="swiper-slide"><img src="./assets/imgs/Review-3.png" alt="" style="height: 357px;"></div>
-              <div class="swiper-slide">Slide 4</div>
-              <div class="swiper-slide">Slide 5</div>
-              <div class="swiper-slide">Slide 6</div>
-              <div class="swiper-slide">Slide 7</div>
-              <div class="swiper-slide">Slide 8</div>
-              <div class="swiper-slide">Slide 9</div>
+        </div>
+    </section>
+    <section id="eigth_section">
+        <div class="container">
+            <h4 class="our_happy">OUR HAPPY COSTUMERS</h4><br />
+            <span id="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet
+                etiam tincidunt rhoncus,ullamcorper velit. Ullamcorper risus tempor,
+                ac nunc libero urna, feugiat.</span>
+            <div class="swiper _mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./assets/imgs/Review-1.png" alt="" style="height: 357px;"></div>
+                    <div class="swiper-slide"><img src="./assets/imgs/Review-2.png" alt="" style="height: 357px;"></div>
+                    <div class="swiper-slide"><img src="./assets/imgs/Review-3.png" alt="" style="height: 357px;"></div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-pagination"></div>
-          </div>
-    </div>
-</section>
+        </div>
+    </section>
+    <section id="nineth_section">
+        <div class="container">
+            <div class="our_recent_lorem">
+               <span class="our_recent_blog">OUR HAPPY CUSTOMERS</span>
+               <p class="lorem_twelve">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
+            </div>
+            <div class="snap_insta">
+                <div class="insta_snapchat">
+                    <div style="width: 30%;">
+                        <img src="./assets/imgs/Image.png" class="snapchat" alt="">
+                    </div>
+                    <div class="the_snap_lorem">
+                        <span class="the_snap">THE SNAP PIXEL: HOW IT WORKS AND HOW TO INSTALL </span>
+                        <p class="lorem_thirdteen">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
+                        <div class="read">
+                            <a class="read_more" href="">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="insta_snapchat">
+                    <div style="width: 30%;">
+                        <img src="./assets/imgs/Image (1).png" class="snapchat" alt="">
+                    </div>
+                    <div class="the_snap_lorem">
+                        <span class="the_snap">THE SNAP PIXEL: HOW IT WORKS AND HOW TO INSTALL </span>
+                        <p class="lorem_thirdteen">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
+                        <div class="read">
+                            <a class="read_more" href="">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="insta_snapchat">
+                    <div style="width: 30%;">
+                        <img src="./assets/imgs/Image (2).png" class="snapchat" alt="">
+                    </div>
+                    <div class="the_snap_lorem">
+                        <span class="the_snap">THE SNAP PIXEL: HOW IT WORKS AND HOW TO INSTALL </span>
+                        <p class="lorem_thirdteen">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
+                        <div class="read">
+                            <a class="read_more" href="">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="logo_quicklink_newsletter">
+                <div class="logo">LOGO
+                    <p class="lorem_impsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
+                    <div class="four">
+                        <img src="./assets/imgs/Social Icon (1).png" alt="">
+                    </div>
+                </div>
+                <div class="quick_link">
+                    QUICK LINK
+                    <div class="link">
+                        <a class="footer_about" href="">About</a>
+                        <a class="footer_about" href="">Features</a>
+                        <a class="footer_about" href="">Screenshot</a>
+                        <a class="footer_about" href="">Blog</a>
+                    </div>
+                </div>
+                <div class="news_letter">
+                    NEWS LETTER
+                    <p class="subscribe">Subscribe our newsletter to get our latest
+                        update & news</p>
+                        <div class="email_add">
+                            <input type="email" placeholder="Your email address" name="" id="email_address" class="email">
+                            <div class="email_address"></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./assets/js/app.js"></script>
 </body>
-</html> 
+
+</html>
