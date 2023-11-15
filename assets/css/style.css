@@ -246,8 +246,18 @@ header {
         width: 400px;
         height: 650px;
     }
+
     #great_app {
         width: 500px;
+    }
+    #h2_great {
+        font-size: 35px;
+        margin-top: 14px;
+    }
+    #under_great {
+        font-size: 16px;
+        margin-top: 18px;
+        line-height: 24px;
     }
 }
 
@@ -256,47 +266,57 @@ header {
     #nav_right button {
         padding: 0 10px;
     }
+
     #nav_left nav a,
     #nav_right nav a {
         font-size: 13px;
         font-weight: 600;
         line-height: 20px;
     }
+
     #nav_right button {
         width: 100px;
         font-size: 13px;
         font-weight: 500;
         height: 40px;
     }
+
     #nav_left,
     #nav_right {
         width: calc((100% - 140px) / 2);
     }
+
     #logo {
         width: 130px;
         height: 65px;
     }
+
     #header_bottom {
         height: 50px;
     }
+
     #telephone_img {
         width: 300px;
         height: 600px;
     }
 }
+
 @media screen and (max-width:768px) {
+
     #nav_left nav a,
-    #nav_right nav a{
+    #nav_right nav a {
         display: none;
     }
-    #nav_right{
+
+    #nav_right {
         display: flex;
         justify-content: flex-end;
     }
 }
+
 #great_app {
     background-color: #FFFFFF;
-    width: 570px;
+    width: 40%;
     position: absolute;
     padding: 26px;
     margin-top: 80px;
@@ -304,7 +324,7 @@ header {
 
 #h2_great {
     color: #5956E9;
-    font-size: 48.83px;
+    font-size: 40px;
     font-weight: 700;
     margin-top: 14px;
 }
@@ -315,6 +335,7 @@ header {
     font-weight: 400;
     color: #6C6C72;
     margin-top: 18px;
+    line-height: 24px;
 }
 
 #download_app_now {
@@ -327,7 +348,7 @@ header {
 #background_div {
     color: transparent;
     border: 18px solid #7572FF;
-    width: 570px;
+    width: 52%;
     height: 475px;
     position: relative;
     z-index: -1;
@@ -346,9 +367,7 @@ header {
     background-color: white;
 } */
 #apple {
-    height: 526px;
     position: absolute;
-    bottom: 200px;
     right: 0;
 }
 
@@ -415,6 +434,7 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1684px;
 }
 
 #third_section .container {
@@ -430,15 +450,40 @@ h2 {
     color: #FFFFFF;
 }
 
-#app_features {
+#fields_center{
+    display: flex;
+    justify-content: space-between;
+}
+.field.center{
     text-align: center;
 }
+.field.right{
+    text-align: right;
+}
+.field.left{
+    text-align: left;
+}
+.fields_head{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
 
+#app_feature {
+    text-align: center;
+}
+.field_column:nth-child(2n+1){
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 800px;
+}
 #under_app_features {
-    display: inline-block;
-    color: white;
     font-size: 16px;
     font-weight: 400;
+    color: white;
+    line-height: 24px;
     margin-top: 18px;
 }
 
@@ -446,6 +491,11 @@ h2 {
     margin: 0 auto;
     margin-top: 60px !important;
     text-align: center;
+}
+
+.head_appfeatures {
+    text-align: center;
+    margin-top: 60px;
 }
 
 h5 {
@@ -461,6 +511,8 @@ h5 {
     font-size: 16px;
     font-weight: 400;
     margin-top: 18px;
+    width: 297px;
+    line-height: 24px;
 }
 
 #unlimiter {
@@ -589,6 +641,7 @@ h6 {
     font-weight: 700;
     color: #FFF;
 }
+
 /* 970 × 519 px */
 .under_how_to_use {
     font-size: 16px;
@@ -711,64 +764,77 @@ h6 {
     margin-top: 24px;
     width: 600px;
 }
+
 .our_recent_lorem {
     text-align: center;
     margin-top: 148px;
 }
+
 .our_recent_blog {
     font-size: 32px;
     font-weight: 700;
 }
+
 .lorem_twelve {
-   width: 600px;
-   font-weight: 400;
-   font-size: 16px;
-   margin: 0 auto;
-   padding-top: 30px;
+    width: 600px;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 auto;
+    padding-top: 30px;
 }
+
 .insta_snapchat {
-    width: 370px;
+    width: 30%;
     border-radius: 10px 10px 0px 0px;
     height: 500px;
     margin-top: 70px;
     background-color: rgb(239, 245, 239);
 }
+
 .snapchat {
-    width: 370px;
+    width: 100%;
     height: 228px;
     border-radius: 10px 10px 0px 0px;
 }
+
 .the_snap_lorem {
     margin-top: 50px;
     padding: 25px;
 }
+
 .the_snap {
     font-size: 20px;
     font-weight: 600;
 }
+
 .lorem_thirdteen {
     font-size: 16px;
     padding-top: 20px;
     font-weight: 400;
 }
+
 .read_more {
     color: #5851EA;
     font-size: 20px;
     font-weight: 600;
 }
+
 .read {
     padding-top: 30px;
     text-decoration: underline;
 }
+
 .snap_insta {
     display: flex;
     gap: 30px;
 }
+
 .footer {
     background-color: rgb(32, 32, 32);
     margin-top: 250px;
     height: 545px;
 }
+
 .logo_quicklink_newsletter {
     color: #FFF;
     display: flex;
@@ -777,45 +843,54 @@ h6 {
     padding-top: 200px;
     gap: 200px;
 }
+
 .logo {
     font-size: 32px;
     font-weight: 700;
 }
+
 .quick_link {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 20px;
 }
+
 .news_letter {
     font-size: 25px;
     font-weight: 600;
     padding-bottom: 80px;
     padding-top: 60px;
 }
+
 .lorem_impsum {
     font-size: 16px;
     font-weight: 400;
     padding-top: 30px;
 }
+
 .footer_about {
     font-size: 16px;
     font-weight: 400;
     color: #FFF;
 }
+
 .link {
     padding-top: 30px;
 }
+
 .four {
     display: flex;
     gap: 50px;
     padding-top: 30px;
 }
+
 .subscribe {
     font-size: 16px;
     font-weight: 400;
     width: 300px;
     padding-top: 30px;
 }
+
 .email {
     width: 369px;
     height: 50px;
@@ -824,6 +899,7 @@ h6 {
     font-weight: 400;
     border-radius: 4px;
 }
+
 .email_add {
     padding-top: 30px;
 }
